@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+main {
+  width: 100%;
+}
+main .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+main .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+main .prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/*banner*/
+
+main .banner {
+  overflow:hidden;
+ 
+}
+main #slider_container {
+  width: 300vw;
+  transition: transform 0.5s;
+}
+
+main #slider_container li.slider {
+  width: 100vw;
+  float: left;
+}
+main .slider img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+
+
+
+main ul.section_name {
+ 
+    margin: 100px 0 50px ;
+    text-align: center;
+  }
+  main ul.section_name li {
+    margin: 10px;
+  }
+  main ul.section_name .title {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+main #panorama_items {
+    width: 100%;
+    text-align: center;
+}
+
+  main #panorama_items .item_box {
+    width: 23%;
+    display: inline-block;
+    border-bottom: solid 3px #ccc;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+}
+
+  main #panorama_items .item_box a {
+    text-decoration: none;
+    color: #444;
+}
+
+  main #panorama_items .item_box img {
+    width: 100%;
+}
+
+  main #panorama_items .item_box li {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+main #youtube {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    list-style-type: none;
+    
+}
+
+main #youtube iframe {
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+   
+}
+
+main #best {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main #review .item {
+    width: 24%;
+    display: inline-block;
+    
+}
+
+main #review .item img {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+main #bal {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #eee;
+   
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul{
+   list-style:none;
+   }
+
+
+
+
+
+ 
+  /* .search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+  .input-search{
+    height: 30px;
+    width: 0px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: whtie;
+    padding-right: 40px;
+    color: black;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: lightcyan ;
+    background-color: transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: lightgray;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  } */
+
